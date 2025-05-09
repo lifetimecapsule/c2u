@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CodeToYou</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4faff;
+      color: #2c3e50;
+    }
+
+    header {
+      background: linear-gradient(to right, #cce7ff, #e3f2fd);
+      padding: 50px 20px 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+      color: #1a5276;
+      font-weight: bold;
+    }
+
+    header h3 {
+      margin-top: 10px;
+      color: #416f91;
+      font-weight: 400;
+    }
+
+    nav {
+      background-color: #ffffff;
+      padding: 12px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #1a5276;
+      font-weight: 600;
+      font-size: 1em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #2874a6;
+      text-decoration: underline;
+    }
+
+    .search-bar {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .search-bar input {
+      width: 60%;
+      padding: 12px 18px;
+      font-size: 1em;
+      border-radius: 30px;
+      border: 1px solid #ccc;
+      outline: none;
+      transition: all 0.3s;
+    }
+
+    .search-bar input:focus {
+      border-color: #1a5276;
+      box-shadow: 0 0 5px rgba(26, 82, 118, 0.2);
+    }
+
+    .poster-section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .poster-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .poster-box {
+      flex: 1 1 300px;
+      max-width: 350px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+      padding: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .poster-box:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    .poster-box img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .poster-box h3 {
+      margin-top: 15px;
+      font-size: 1.2em;
+      color: #1a5276;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #d0eaff;
+      color: #2c3e50;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+      .search-bar input {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Code to You</h1>
+    <h3>"One code. One message. One Feeling."</h3>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="howitworks.html">How It Works</a>
+    <a href="https://munchies.onpay.my/order/form/codetoyoupurchasecode">Buy Code</a>
+    <a href="#searchInput">Enter Code</a>
+    <a href="contactus.html">Contact Us</a>
+  </nav>
+
+
+
+  <section class="poster-section">
+  <h2 style="color:#1a5276; margin-bottom: 30px;">Cara Pembelian</h2>
+  <div class="poster-container">
+    <!-- Gambar 1 -->
+    <div class="poster-box">
+      <img src="1.jpg" alt="Langkah 1">
+    </div>
+
+    <!-- Gambar 2 -->
+    <div class="poster-box">
+      <img src="2.jpg" alt="Langkah 2">
+    </div>
+
+    <!-- Gambar 3 -->
+    <div class="poster-box">
+      <img src="3.jpg" alt="Langkah 3">
+    </div>
+
+    <div class="poster-box">
+      <img src="4.jpg" alt="Langkah 3">
+    </div>
+
+
+    <div class="poster-box">
+      <img src="5.jpg" alt="Langkah 3">
+    </div>
+
+
+    <div class="poster-box">
+      <img src="6.jpg" alt="Langkah 3">
+    </div>
+
+
+    <div class="poster-box">
+      <img src="7.jpg" alt="Langkah 3">
+    </div>
+
+
+   
+
+    
+
+    <!-- Tambahan gambar jika perlu -->
+    <!--
+    <div class="poster-box">
+      <img src="cara4.jpg" alt="Langkah 4">
+    </div>
+    -->
+  </div>
+</section>
+
+
+  <footer>
+    &copy; 2025 CodeToYou. Semua hak cipta terpelihara.
+  </footer>
+
+
+</body>
+</html>
